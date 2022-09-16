@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-- Practice sending GET requests using Python
-- Build a reusable class for sending requests and handling responses
+- Practice sending GET requests using Python.
+- Build a reusable class for sending requests and handling responses.
 
 ***
 
@@ -12,7 +12,6 @@
 - **Request**: an attempt by one machine to contact another over the internet.
 - **Client**: an application or machine that accesses services being provided by a server through the internet.
 - **Web Server**: a combination of software and hardware that uses Hypertext Transfer Protocol (HTTP) and other protocols to respond to requests made over the internet.
-- **More vocab to come**
 
 ***
 
@@ -26,6 +25,8 @@ requests that return JSON.
 
 When complete, you will have a simple, but versatile class for getting
 information from all kinds of sources over the internet.
+
+***
 
 ## Instructions
 
@@ -60,6 +61,8 @@ messages to complete your work in the `lib/` folder.
 Once all of your tests are passing, commit and push your work using `git` to
 submit.
 
+***
+
 ## Conclusion
 
 Once you've successfully passed the tests, from this lesson's directory, you
@@ -76,3 +79,15 @@ This class won't work for all cases but is a good starting place to get us off
 the ground. We can now augment our applications with data from the internet!
 Combined with our knowledge of Python, we have all the tools we need to start
 building smarter Python applications populated with real data.
+
+***
+
+## Resources
+
+- [GET - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
+
+- [HTTP methods - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+- [requests](https://requests.readthedocs.io/en/latest/)
+
+- [Python JSON](https://docs.python.org/3/library/json.html)
