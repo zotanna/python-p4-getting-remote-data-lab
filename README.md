@@ -10,8 +10,11 @@
 ## Key Vocab
 
 - **Request**: an attempt by one machine to contact another over the internet.
-- **Client**: an application or machine that accesses services being provided by a server through the internet.
-- **Web Server**: a combination of software and hardware that uses Hypertext Transfer Protocol (HTTP) and other protocols to respond to requests made over the internet.
+- **Client**: an application or machine that accesses services being provided by
+  a server through the internet.
+- **Web Server**: a combination of software and hardware that uses Hypertext
+  Transfer Protocol (HTTP) and other protocols to respond to requests made over
+  the internet.
 
 ***
 
@@ -42,8 +45,8 @@ GET request to the URL passed in on initialization. This method should return
 the _body_ of the response.
 
 The `GetRequester` class should have a `load_json` method should use
-`get_response_body` to send a request, then return a Python list or dictionary made up
-of data converted from the response of that request.
+`get_response_body` to send a request, then return a Python list or dictionary
+made up of data converted from the response of that request.
 
 The tests in this lab will use your code to send a request for some JSON data,
 located at
@@ -85,9 +88,6 @@ building smarter Python applications populated with real data.
 ## Resources
 
 - [GET - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
-
 - [HTTP methods - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-
 - [requests](https://requests.readthedocs.io/en/latest/)
-
 - [Python JSON](https://docs.python.org/3/library/json.html)
