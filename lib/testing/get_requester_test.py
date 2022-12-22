@@ -6,11 +6,11 @@ JSON_STRING = b"[\n  {\n    \"name\": \"Daniel\",\n    \"occupation\": \"LG Frid
 CONVERTED_DATA = [{ 'name': 'Daniel', 'occupation' : 'LG Fridge Salesman' }, { 'name': 'Joe', 'occupation': 'WiFi Fixer' }, { 'name': 'Avi', 'occupation': 'DJ' }, { 'name': 'Howard', 'occupation': 'Mountain Legend' }]
 
 def test_get_response():
-        '''get_response_body function returns response .'''
+        '''get_response_body function returns response.'''
         requester = GetRequester(URL)
         assert(requester.get_response_body() == JSON_STRING)
 
-def test_parse_json():
-        '''parse_json function returns response .'''
+def test_load_json():
+        '''load_json function returns response.'''
         requester = GetRequester(URL)
-        assert(requester.parse_json() == CONVERTED_DATA)
+        assert(requester.load_json() == CONVERTED_DATA)

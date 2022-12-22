@@ -9,5 +9,5 @@ class GetRequester:
     def get_response_body(self):
         pass
 
-    def parse_json(self):
+    def load_json(self):
         pass
