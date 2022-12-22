@@ -44,7 +44,7 @@ The `GetRequester` class should have a `get_response_body` method that sends a
 GET request to the URL passed in on initialization. This method should return
 the _body_ of the response.
 
-The `GetRequester` class should have a `load_json` method should use
+The `GetRequester` class should have a `load_json` method that should use
 `get_response_body` to send a request, then return a Python list or dictionary
 made up of data converted from the response of that request.
 
