@@ -33,7 +33,7 @@ information from all kinds of sources over the internet.
 
 ## Instructions
 
-All work should be completed in `lib/get_requester.py`. Use the previous
+All work should be completed in `lib/GetRequester.py`. Use the previous
 code-along on getting data from APIs as a reference when building out your
 class.
 
@@ -70,7 +70,7 @@ submit.
 
 Once you've successfully passed the tests, from this lesson's directory, you
 should be able to open repl, use
-`lib/get_requester.py`, and send out some requests!
+`lib/GetRequester.py`, and send out some requests!
 
 ```py
 get_requester = GetRequester('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
